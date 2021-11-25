@@ -1,0 +1,39 @@
+@import './../../assets/scss/common.scss';
+
+.heading {
+  @extend %for_headings;
+}
+
+.signup_section {
+  font-family: $font_family;
+  @extend %for_form_wrappers;
+}
+
+.textWrapper {
+  margin: 0 110px;
+}
+.caption {
+  
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createAccountBtn {
+  @extend %for_big_green_button;
+}
+.termOfServiceLink{
+  transition: color $transition_speed;
+  &:hover {
+    color:rgb(184, 190, 204);
+  }
+}

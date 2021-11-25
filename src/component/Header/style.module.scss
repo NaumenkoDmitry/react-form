@@ -1,0 +1,34 @@
+@import './../../assets/scss/common.scss';
+
+.nav {
+  display: flex;
+  padding: 40px 60px;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  border: 1px solid white;
+  border-radius: 5px;
+
+  width: 110px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: $font_family;
+  font-size: 18px;
+  font-weight: bolder;
+
+  transition: background-color $transition_speed;
+  &:hover {
+    background-color: rgba(230, 230, 225, 0.425);
+  }
+  &:active {
+    border: none;
+  }
+}

@@ -1,0 +1,24 @@
+@import './../../assets/scss/common.scss';
+
+.heading {
+  @extend %for_headings;
+}
+
+.login_section {
+  @extend %for_form_wrappers;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.login_btn {
+  @extend %for_big_green_button;
+}
+
+.login_input {
+  @extend %for_inputs;
+}

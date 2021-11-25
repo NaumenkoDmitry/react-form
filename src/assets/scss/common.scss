@@ -1,0 +1,47 @@
+$font_family : sans-serif;
+$transition_speed : ease-in-out 0.3s;
+
+
+%for_headings {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+}
+
+%for_form_wrappers{
+  max-width: 700px;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+%for_big_green_button {
+  text-transform: uppercase;
+  width: 100%;
+  padding: 15px 0;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: rgb(97, 210, 208);
+  border: none;
+  cursor: pointer;
+  transition: background-color $transition_speed;
+  margin-bottom: 20px;
+  &:hover {
+    background-color:rgb(73, 168, 167);
+  }
+}
+
+%for_inputs {
+  width: 100%;
+  background-color: white;
+  color : rgb(151, 148, 148);
+  margin: 10px 0;
+  padding: 20px 20px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  border: 1.5px solid transparent;
+}
+

@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.forgotPasswordLink{
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  &:hover {
+    border-bottom: 1px solid white;
+  }
+}

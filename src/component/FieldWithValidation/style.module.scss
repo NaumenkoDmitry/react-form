@@ -1,0 +1,27 @@
+@import './../../assets/scss/common.scss';
+
+.inputWrapper {
+  margin: 0;
+  padding: 0;
+  width: 48%;
+  position: relative;
+}
+
+.inputWrapperLong{
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+
+.input {
+  @extend %for_inputs;
+}
+
+.errStyle {
+  border: 1.5px solid red;
+}
+
+.correct {
+  border: 1.5px solid green;
+}
